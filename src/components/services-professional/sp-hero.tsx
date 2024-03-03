@@ -31,16 +31,16 @@ export default function SPHero() {
       <div className="relative z-10 py-40 lg:py-8 container flex flex-col items-start justify-center gap-4">
         <div className="flex mt-10 lg:mt-28 flex-col text-white items-start justify-center gap-2">
           <div>
-            <h1 className="text-4xl text-cws-dark mt-8 md:mt-0 font-extrabold text-cws-dark text-center lg:text-start  w-full lg:w-[60%] uppercase leading-tight md:text-5xl lg:text-[65px] tracking-wider text-white drop-shadow-2xl">
-              Your Tri Cities Concrete Professionals
+            <h1 className="text-4xl text-cws-dark mt-8 md:mt-0 font-medium text-cws-dark text-center lg:text-start  w-full lg:w-[60%] capitalize leading-tight md:text-5xl lg:text-[75px] tracking-wider text-white drop-shadow-2xl">
+              Best Decking Contractor in Tri Cities
             </h1>
           </div>
         </div>
         <div className="flex font-medium flex-col text-center">
-          <h3 className="flex text-md w-full lg:w-[60%] text-center lg:text-start font-light  items-center text-xl md:text-xl tracking-wider text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum alias temporibus iste obcaecati nulla
-            incidunt sequi tenetur minima, dolor esse minus quo ab totam adipisci.  
-          </h3>
+          <h2 className="flex text-md w-full lg:w-[50%] text-center lg:text-start font-medium items-center text-xl md:text-xl tracking-wider text-white">
+            Desmond and Sons Construction: Premier Decking and Fencing Contractor in Tri Cities, Committed to Quality
+            and Customer Satisfaction.
+          </h2>
         </div>
         <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 w-full">
           <ScrollLink
@@ -61,7 +61,7 @@ export default function SPHero() {
               Get a quote
             </Button>
           </ScrollLink>
-          <div className='text-white text-2xl underline uppercase'>Call us {siteConfig.phone}</div>
+          <div className="text-white text-2xl underline uppercase">Call us {siteConfig.phone}</div>
         </div>
       </div>
     </div>

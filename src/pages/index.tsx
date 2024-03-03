@@ -14,7 +14,7 @@ import SPAllOutFooterSection from '../components/services-professional/sp-info-h
 export default function ServicesProfessional() {
   return (
     <div className="bg-gray-50">
-      <SPLayoutRegular title="Single Service Website" description="This is the description of the page :D">
+      <SPLayoutRegular title="Decking Contractor in Tri Cities | Desmond and Sons Construction" description="Desmond and Sons Construction, the leading decking contractor in Tri Cities, specializing in custom decks and expert fencing contractor services. Renowned for quality craftsmanship, our team ensures customer satisfaction with durable, attractive outdoor solutions. Trust us for your decking and fencing needs.">
         <SPHero></SPHero>
         <SPAbout></SPAbout>
         {/* <SSServiceesWeOffer></SSServiceesWeOffer>

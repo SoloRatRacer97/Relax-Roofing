@@ -63,9 +63,9 @@ export default function SPLayoutRegular({
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/logo/filler-logo-ico.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/logo/filler-logo-ico.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/logo/filler-logo-ico.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo/filler-logo-ico.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/logo/filler-logo-ico.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo/filler-logo-ico.ico" />
         {/* Recommended tags */}
         <link rel="canonical" href={siteConfiguration.url} />
         <meta property="og:title" content={title} />

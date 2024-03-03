@@ -23,10 +23,10 @@ interface SiteConfig {
 
 // TODO: Business/Site configuration
 export const siteConfig: SiteConfig = {
-  name: 'Business Name',
-  slogan: "Super cool business slogan",
+  name: 'Desmond And Sons LLC',
+  slogan: "",
   description: 'Business description here',
-  url: 'thisistheurl.com',
+  url: 'desandsons.com',
   APIurl: 'thisistheurl.com',
   cwsName: 'Cascade Web Solutions',
 
@@ -50,13 +50,13 @@ export const siteConfig: SiteConfig = {
   ],
   services: ['serviceOne', 'serviceTwo', 'serviceThree', 'serviceThree', 'serviceThree', 'serviceThree'],
   links: {
-    tikTok: 'Lorem11',
+    tikTok: 'https://www.tiktok.com/@desmond.and.sons',
     linkedin: 'Lorem11',
-    facebook: 'Lorem11',
+    facebook: 'https://m.facebook.com/Desmondandsonsconstruction',
     instagram: 'Lorem11',
   },
-  address: '1234 Aynwhere place  SW, Calgary, AB T2P 3E5',
-  phone: '(509) 123-4567',
-  email: 'info@exampledomain.com',
-  dateSiteLaunched: 'January 1st XXXX',
+  address: '6212 candlestick Dr. Pasco 99301',
+  phone: '(509) 405-6621',
+  email: 'des@desandsons.com',
+  dateSiteLaunched: 'March 3rd 2024',
 };
