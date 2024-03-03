@@ -1,30 +1,31 @@
-// Structure of the home page. Never pick more than 8/9
-// Home/hero
-// About
-// Services
-// Updates/coming soon/changes
-// Fixed image/large image background with a customer promise
-// Contact Form
-// Newsletter Sign Up
-// Case Studies
-// Location Info
-// Blog or Insights
-// Q&A
-// Customer Reviews
+import HomeContactForm from '../components/contact-form/contact-us';
+import AllOutFooterSection from '../components/footer/info-heavy';
+import SPAbout from '../components/services-professional/sp-about';
+import SPHero from '../components/services-professional/sp-hero';
+import SPLayoutRegular from '../components/services-professional/sp-layout';
 
-import { useRouter } from 'next/router';
-import Layout from '../components/layout-regular';
-import SimpleHero from '../components/home-hero/simple';
+import SPFixedImageCallToAction from '../components/services-professional/sp-fixed-image';
+import SPServices from '../components/services-professional/sp-services';
+import SPPortfolio from '../components/services-professional/sp-portfolio';
+import SPReviewSection from '../components/services-professional/sp-review-section';
+import SPHomeContactForm from '../components/services-professional/sp-contact-us';
+import SPAllOutFooterSection from '../components/services-professional/sp-info-heavy';
 
-export default function HomePage() {
-  const router = useRouter();
-
+export default function ServicesProfessional() {
   return (
-    <Layout title="Single Page Sign Up" description="This is the description of the page :D">
-      <SimpleHero></SimpleHero>
-      {/* <FixedImageCallToAction></FixedImageCallToAction>
-      <HomeContactForm></HomeContactForm>
-      <div className="h-[2000px]"></div> */}
-    </Layout>
+    <div className="bg-gray-50">
+      <SPLayoutRegular title="Single Service Website" description="This is the description of the page :D">
+        <SPHero></SPHero>
+        <SPAbout></SPAbout>
+        {/* <SSServiceesWeOffer></SSServiceesWeOffer>
+        <CarouselPlugin></CarouselPlugin> */}
+        <SPServices></SPServices>
+        <SPFixedImageCallToAction></SPFixedImageCallToAction>
+        <SPPortfolio></SPPortfolio>
+        <SPReviewSection></SPReviewSection>
+        <SPHomeContactForm></SPHomeContactForm>
+        <SPAllOutFooterSection></SPAllOutFooterSection>
+      </SPLayoutRegular>
+    </div>
   );
 }
