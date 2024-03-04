@@ -78,7 +78,7 @@ const handleRequest = async (req: NextApiRequest, res: NextApiResponse) => {
 
     const data = {
       // TODO: add in email for client
-      to: '',
+      to: 'des@desandsons.com',
       from: 'customer-inquiry@cascadewebsolutions.co',
       subject: 'Customer Outreach Message',
       text: message,

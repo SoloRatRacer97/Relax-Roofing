@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
       href: '/consultant',
     },
   ],
-  services: ['serviceOne', 'serviceTwo', 'serviceThree', 'serviceThree', 'serviceThree', 'serviceThree'],
+  services: ['Decking Contractor', 'Fencing Contractor'],
   links: {
     tikTok: 'https://www.tiktok.com/@desmond.and.sons',
     linkedin: 'Lorem11',

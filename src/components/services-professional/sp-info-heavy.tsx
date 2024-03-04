@@ -43,20 +43,20 @@ export default function SPAllOutFooterSection() {
             <div className="text-3xl font-medium underline">Social Media</div>
             <div className="flex gap-4 mt-2">
               <div className="h-16 w-16">
-                <Link href={siteConfig.links.facebook}>
+                <Link href={siteConfig.links.facebook} target='blank'>
                   <Image className='' src={facebook} alt="Facebook Icon"></Image>
                 </Link>
               </div>
               <div className="h-16 w-16">
-                <Link href={siteConfig.links.facebook}>
+                <Link href={siteConfig.links.facebook} target='blank'>
                   <Image className='' src={instagram} alt="Facebook Icon"></Image>
                 </Link>
               </div>
-              <div className="h-16 w-16">
-                <Link href={siteConfig.links.facebook}>
+              {/* <div className="h-16 w-16">
+                <Link href={siteConfig.links.facebook} target='blank'>
                   <Image className='' src={linkedin} alt="Facebook Icon"></Image>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

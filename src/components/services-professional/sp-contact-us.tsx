@@ -106,22 +106,19 @@ export default function SPHomeContactForm() {
   }
 
   return (
-    <div className="bg-white contactSection py-12 lg:py-24 contactSection">
+    <div className="bg-white contactSection py-12 lg:py-20 contactSection">
       <div className="container flex flex-col xl:flex-row w-full md:w-[95%] xl:w-full gap-10 lg:gap-20 items-center">
-        <div className="w-full xl:w-1/2 xl:pr-20 flex gap-6 flex-col items-start">
-          <h2 className="text-5xl lg:text-6xl font-bold capitalize text-spNeutral">
-            Reach out to our team!
-          </h2>
-          <h3 className="text-xl font-medium">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic!
-          </h3>
+        <div className="w-full xl:w-1/2 xl:pr-10 flex gap-6 flex-col items-start">
+          <h2 className="text-5xl lg:text-6xl font-bold capitalize text-spNeutral">Get in Touch With Us</h2>
+          <h3 className="text-xl font-medium">We're Ready To Start!</h3>
           <p className="text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, rerum doloremque. Sequi nesciunt molestiae
-            ducimus at perferendis doloribus similique amet quisquam? Iste suscipit nulla reprehenderit!
+            Whether you have a question about our services, need assistance with a project, or need a professional
+            opinion, we're here for you. Reach out to us using the form below, and our team will get back to you as soon
+            as possible.
           </p>
           <p className="text-lg hidden lg:flex">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, rerum doloremque. Sequi nesciunt molestiae
-            ducimus at perferendis doloribus similique amet quisquam? Iste suscipit nulla reprehenderit!
+            We pride ourselves on our quick response times and personalized service. Let us know how we can assist you
+            with your decking and fencing needs. Your satisfaction is our top priority.
           </p>
         </div>
         <div className="w-[95%] xl:w-[45%] py-6 bg-gray-100 rounded-md text-start relative z-10 flex flex-col items-center">
@@ -189,7 +186,7 @@ export default function SPHomeContactForm() {
                   )}
                 />
                 <Button
-                  className="h-12 w-48 drop-shadow-xl bg-spSecondary rounded-sm text-xl hover:bg-spSecondaryDark"
+                  className="h-12 w-48 drop-shadow-xl bg-spPrimary rounded-sm text-xl hover:bg-spSecondaryDark"
                   type="submit"
                   disabled={success}
                 >

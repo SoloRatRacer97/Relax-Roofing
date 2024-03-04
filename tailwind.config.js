@@ -56,10 +56,10 @@ module.exports = {
         ssNeutralDark: "#4A9269",
         ssAccet: "#09589E",
         // Professional Service
-        spPrimary: "#8B0000",
+        spPrimary: "#1075BC",
         spPrimaryDark: "#720000",
         spNeutral: "#39434A",
-        spSecondary: "#4682B4",
+        spSecondary: "#939598",
         spAccent: "#B2C9CB",
         // Store
         stPrimary: "#D32F2F",
