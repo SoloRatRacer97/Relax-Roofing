@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { siteConfig } from '@/config/site';
-import facebook from '../../../public/icons/facebook.svg';
+import facebook from '../../../public/icons/facebook.png';
 import instagram from "../../../public/icons/instagram.svg"
 import linkedin from "../../../public/icons/linkedin.svg"
 

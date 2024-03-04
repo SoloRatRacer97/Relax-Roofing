@@ -6,7 +6,7 @@ import { InfoWithSticky } from '../navigation/info-with-sticky-nav';
 import { siteConfig } from '@/config/site';
 import { useRouter } from 'next/router';
 import { ConsBlockyWithQuoteNav } from './consultant-navigation';
-import Facebook from '../../../public/icons/facebook.svg';
+import Facebook from '../../../public/icons/facebook.png';
 import Instagram from '../../../public/icons/instagram.svg';
 import LinkedIn from '../../../public/icons/linkedin.svg';
 import Image from 'next/image';

@@ -1,5 +1,5 @@
 import HeroImage from '../../../public/consultant/cons-hero.png';
-import heroCheck from '../../../public/icons/facebook.svg';
+import heroCheck from '../../../public/icons/facebook.png';
 import { Button, buttonVariants } from '../ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
