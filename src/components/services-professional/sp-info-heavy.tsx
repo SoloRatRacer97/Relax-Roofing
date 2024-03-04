@@ -4,9 +4,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { siteConfig } from '@/config/site';
-import facebook from '../../../public/icons/facebook.svg';
+import facebook from '../../../public/icons/facebook.png';
 import instagram from "../../../public/icons/instagram.svg"
-import linkedin from "../../../public/icons/linkedin.svg"
+import youtube from "../../../public/icons/youtube.png"
+import tikTok from "../../../public/icons/tiktok.png"
 
 export default function SPAllOutFooterSection() {
   const router = useRouter();
@@ -41,22 +42,22 @@ export default function SPAllOutFooterSection() {
           </div>
           <div className="flex flex-col lg:items-center w-full lg:w-[18%] h-20 ">
             <div className="text-3xl font-medium underline">Social Media</div>
-            <div className="flex gap-4 mt-2">
-              <div className="h-16 w-16">
+            <div className="flex gap-4 mt-2 items-center">
+              <div className="h-12 w-12 -mt-2">
+                <Link href={siteConfig.links.tikTok} target='blank'>
+                  <Image className='' src={tikTok} alt="Facebook Icon"></Image>
+                </Link>
+              </div>
+              <div className="h-16 w-16 -mt-2">
                 <Link href={siteConfig.links.facebook} target='blank'>
                   <Image className='' src={facebook} alt="Facebook Icon"></Image>
                 </Link>
               </div>
-              <div className="h-16 w-16">
-                <Link href={siteConfig.links.facebook} target='blank'>
-                  <Image className='' src={instagram} alt="Facebook Icon"></Image>
+              <div className="h-16 w-16 -mt-2">
+                <Link href={siteConfig.links.linkedin} target='blank'>
+                  <Image className='' src={youtube} alt="Facebook Icon"></Image>
                 </Link>
               </div>
-              {/* <div className="h-16 w-16">
-                <Link href={siteConfig.links.facebook} target='blank'>
-                  <Image className='' src={linkedin} alt="Facebook Icon"></Image>
-                </Link>
-              </div> */}
             </div>
           </div>
         </div>

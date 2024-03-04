@@ -57,8 +57,8 @@ module.exports = {
         ssAccet: "#09589E",
         // Professional Service
         spPrimary: "#1075BC",
-        spPrimaryDark: "#720000",
-        spNeutral: "#39434A",
+        spPrimaryDark: "#0B4F6C",
+        spNeutral: "#50555C",
         spSecondary: "#939598",
         spAccent: "#B2C9CB",
         // Store

@@ -54,7 +54,7 @@ export default function SPHero() {
           >
             <Button
               className={`${buttonVariants({
-                variant: 'spSecondary',
+                variant: 'spDefault',
                 size: 'xlg',
               })} text-xl w-56 rounded-sm uppercase front-thin`}
             >

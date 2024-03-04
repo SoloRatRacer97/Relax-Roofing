@@ -29,7 +29,7 @@ export default function SPServices() {
               </div>
             </div>
             <div className="w-[90%] lg:w-[30%] bg-gray-200 text-start rounded-md flex flex-col items-start gap-2 p-6">
-              <div className="h-14 w-14 bg-spNeutral flex items-center justify-center rounded-md font-medium text-white text-2xl">
+              <div className="h-14 w-14 bg-spPrimaryDark flex items-center justify-center rounded-md font-medium text-white text-2xl">
                 3
               </div>
               <div className="text-2xl font-medium">Complete Satisfaction</div>

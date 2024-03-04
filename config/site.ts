@@ -51,7 +51,7 @@ export const siteConfig: SiteConfig = {
   services: ['Decking Contractor', 'Fencing Contractor'],
   links: {
     tikTok: 'https://www.tiktok.com/@desmond.and.sons',
-    linkedin: 'Lorem11',
+    linkedin: 'https://www.youtube.com/channel/UCFVoGePhX4EYFJHA7DkgvlQ',
     facebook: 'https://m.facebook.com/Desmondandsonsconstruction',
     instagram: 'Lorem11',
   },
