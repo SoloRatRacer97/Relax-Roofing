@@ -1,4 +1,4 @@
-import HeroImage from '../../../public/sp/sp-fixed.png';
+import HeroImage from '../../../public/sp/sp-fixed.jpeg';
 import { Button, buttonVariants } from '../ui/button';
 import Image from 'next/image';
 import Link from 'next/link';

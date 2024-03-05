@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import Image, { StaticImageData } from 'next/image';
-import HeroImage from '../../../public/ss/sshighlight.png';
+import HeroImage from '../../../public/sp/review.png';
 import { Card, CardContent } from '../ui/card';
 import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from '../ui/carousel';
 import { Link as ScrollLink } from 'react-scroll';
@@ -75,7 +75,7 @@ export default function SPReviewSection() {
 
   return (
     <div className="bg-gray-200 py-12 lg:py-24 reviewsSection">
-      <div className="container flex flex-col gap-40 px-20 lg:flex-row items-center justify-center">
+      <div className="container flex flex-col gap-40 px-20 lg:flex-row items-start justify-center">
         <div className="w-full xl:w-1/2 flex flex-col gap-4">
           <div className="text-5xl font-bold capitalize text-spNeutral">Hear from our happy Customers</div>
           <div className="text-xl font-thin">
@@ -110,7 +110,7 @@ export default function SPReviewSection() {
             </div> */}
           </div>
         </div>
-        <div className="hidden xl:flex w-full lg:w-1/2 gap-8 flex-col">
+        <div className="hidden xl:flex w-full lg:w-1/2 gap-8 flex-col lg:mt-12">
           <Image className="pointer-events-none" src={HeroImage} alt="Home Page Hero Image" />
           <ScrollLink
             activeClass="active"
