@@ -106,7 +106,7 @@ export default function SPHomeContactForm() {
   }
 
   return (
-    <div className="bg-white py-12 lg:py-20">
+    <div className="bg-white contactSection py-12 lg:py-20">
       <div className="container flex flex-col xl:flex-row w-full md:w-[95%] xl:w-full gap-10 lg:gap-20 items-center">
         <div className="w-full xl:w-1/2 xl:pr-10 flex gap-6 flex-col items-start">
           <h2 className="text-5xl lg:text-6xl font-bold capitalize text-spNeutral">Get in Touch With Us</h2>
