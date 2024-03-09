@@ -58,6 +58,7 @@ export default function SPAllOutFooterSection() {
                   <Image className='' src={youtube} alt="Facebook Icon"></Image>
                 </Link>
               </div>
+              {/* TODO: Add in instagram here again  */}
             </div>
           </div>
         </div>
