@@ -32,20 +32,8 @@ export const siteConfig: SiteConfig = {
 
   mainNav: [
     {
-      title: 'Services Soft',
-      href: '/services-soft',
-    },
-    {
-      title: 'Services Professional',
-      href: '/services-professional',
-    },
-    {
-      title: 'Store',
-      href: '/store',
-    },
-    {
-      title: 'Consultant',
-      href: '/consultant',
+      title: 'Home',
+      href: '/',
     },
   ],
   services: ['Decking Contractor', 'Fencing Contractor', 'Outdoor Living Contractor'],
