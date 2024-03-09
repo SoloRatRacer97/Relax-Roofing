@@ -31,7 +31,7 @@ export default function SPHero() {
       <div className="relative z-10 py-40 lg:py-8 container flex flex-col items-start justify-center gap-4">
         <div className="flex mt-10 lg:mt-28 flex-col text-white items-start justify-center gap-2">
           <div>
-            <h1 className="text-4xl text-cws-dark mt-8 md:mt-0 font-medium text-cws-dark text-center lg:text-start  w-full lg:w-[60%] capitalize leading-tight md:text-5xl lg:text-[75px] tracking-wider text-white drop-shadow-2xl">
+            <h1 className="text-5xl text-cws-dark mt-8 md:mt-0 font-medium text-cws-dark text-center lg:text-start  w-full lg:w-[80%] capitalize leading-tight md:text-5xl lg:text-[85px] tracking-wider text-white drop-shadow-2xl">
               Best Decking Contractor in Tri Cities
             </h1>
           </div>

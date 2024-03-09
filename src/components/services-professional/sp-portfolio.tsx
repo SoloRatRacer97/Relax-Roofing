@@ -10,7 +10,7 @@ export default function SPPortfolio() {
   return (
     <div className="bg-white portfolioSection">
       <div className="container flex flex-col text-start items-center py-24 gap-6">
-        <div className="text-4xl lg:text-6xl font-bold text-spNeutral self-start pl-8 pt-10 lg:pt-0">Our Work Speaks for Itself</div>
+        <div className="text-4xl lg:text-6xl font-bold text-spNeutral self-start pl-8 pt-10 lg:pt-0">Solid Designs, Solid Work</div>
         <p className="w-full lg:w-[70%] text-xl self-start pl-8">
           Explore our gallery of completed decking and fencing projects. Each image is a testament to our commitment to quality and customer satisfaction. From modern designs to classic styles, our portfolio showcases our versatility and craftsmanship in every detail.
         </p>

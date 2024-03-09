@@ -1,4 +1,5 @@
 import Logo from '../../../public/logo/filler-logo.png';
+import smallLogo from "../../../public/sp/simple-logo.png"
 import { cn } from '@/lib/utils';
 import { NavItem } from '@/types/nav';
 import Image from 'next/image';
@@ -213,12 +214,12 @@ export function SPInfoWithSticky({ items, href }: MainNavProps) {
           <div className="relative flex ml-8 mt-1">
             <Menu size={30} onClick={handleMenuToggle}></Menu>
             {menuOpen && (
-              <div className="absolute h-fit w-40 bg-stBackground rounded-sm drop-shadow-xl top-10 w-56 flex flex-col p-2 gap-2">
+              <div className="absolute h-fit w-40 bg-gray-200 rounded-md drop-shadow-2xl top-10 w-56 flex flex-col p-2 gap-2">
                 <Image
-                  width={120}
+                  width={40}
                   className="object-center object-cover pointer-events-none"
-                  src={Logo}
-                  alt="Sir SudsLogo"
+                  src={smallLogo}
+                  alt="Business Logo"
                 />
                 <div className="h-[1px] bg-black w-[80%]"></div>
                 <div>
