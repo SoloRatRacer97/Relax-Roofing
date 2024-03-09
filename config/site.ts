@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
     tikTok: 'https://www.tiktok.com/@desmond.and.sons',
     linkedin: 'https://www.youtube.com/channel/UCFVoGePhX4EYFJHA7DkgvlQ',
     facebook: 'https://m.facebook.com/Desmondandsonsconstruction',
-    instagram: 'Lorem11',
+    instagram: 'https://www.instagram.com/desmond_and_sons/',
   },
   address: '6212 candlestick Dr. Pasco 99301',
   phone: '(509) 405-6621',

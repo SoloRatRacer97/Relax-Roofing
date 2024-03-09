@@ -1,5 +1,3 @@
-import HomeContactForm from '../components/contact-form/contact-us';
-import AllOutFooterSection from '../components/footer/info-heavy';
 import SPAbout from '../components/services-professional/sp-about';
 import SPHero from '../components/services-professional/sp-hero';
 import SPLayoutRegular from '../components/services-professional/sp-layout';
@@ -24,7 +22,7 @@ export default function ServicesProfessional() {
         <SPPortfolio></SPPortfolio>
         <SPReviewSection></SPReviewSection>
         <SPHomeContactForm></SPHomeContactForm>
-        {/* <SPAllOutFooterSection></SPAllOutFooterSection> */}
+        <SPAllOutFooterSection></SPAllOutFooterSection>
       </SPLayoutRegular>
     </div>
   );

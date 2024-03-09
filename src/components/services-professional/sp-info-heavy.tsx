@@ -24,8 +24,7 @@ export default function SPAllOutFooterSection() {
               width={300}
               className="bg-white rounded-xl lg:block object-center object-cover pointer-events-none"
               src={Logo}
-              // TODO logo desctiption
-              alt="Business name logo :D"
+              alt="Logo for Desmond and Sons Construction"
             />
           </div>
           <div className="w-full lg:w-[18%] flex flex-col items-start gap-2">
@@ -45,7 +44,7 @@ export default function SPAllOutFooterSection() {
             <div className="flex gap-4 mt-2 items-center">
               <div className="h-12 w-12 -mt-2">
                 <Link href={siteConfig.links.tikTok} target='blank'>
-                  <Image className='' src={tikTok} alt="Facebook Icon"></Image>
+                  <Image className='' src={tikTok} alt="TikTok Icon"></Image>
                 </Link>
               </div>
               <div className="h-16 w-16 -mt-2">
@@ -55,10 +54,14 @@ export default function SPAllOutFooterSection() {
               </div>
               <div className="h-16 w-16 -mt-2">
                 <Link href={siteConfig.links.linkedin} target='blank'>
-                  <Image className='' src={youtube} alt="Facebook Icon"></Image>
+                  <Image className='' src={youtube} alt="Linkedin Icon"></Image>
                 </Link>
               </div>
-              {/* TODO: Add in instagram here again  */}
+              <div className="h-16 w-16 mt-2">
+                <Link href={siteConfig.links.instagram} target='blank'>
+                  <Image className='' src={instagram} alt="Instagram Icon"></Image>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

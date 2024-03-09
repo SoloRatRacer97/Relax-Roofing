@@ -129,7 +129,7 @@ export default function SPHomeContactForm() {
                 onSubmit={form.handleSubmit(onSubmit)}
                 className="space-y-4 flex flex-col items-center justify-center text-primary"
               >
-                <ReCAPTCHA ref={reRef} sitekey={recaptchaSiteKey} className="z-100 hidden " />
+                {/* <ReCAPTCHA ref={reRef} sitekey={recaptchaSiteKey} className="z-100 hidden " /> */}
                 <FormField
                   control={form.control}
                   name="fullName"
