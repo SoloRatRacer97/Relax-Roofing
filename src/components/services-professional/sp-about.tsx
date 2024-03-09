@@ -8,6 +8,7 @@ export default function SPAbout() {
   return (
     <div className="bg-white py-12 lg:py-24 aboutSection">
       <div className="container flex flex-col lg:flex-row items-center justify-between px-12 gap-28">
+        {/* TOOD: Make this with the logo for the desckorators and a photo of decking from Des */}
         <Image className="hidden xl:flex object-center object-cover pointer-events-none" src={AboutImage} alt="Desmond and Sons Construction" />
         <div className="w-full xl:w-1/2 flex  gap-6 flex-col items-start">
           <h2 className="text-4xl lg:text-5xl font-bold text-spNeutral capitalize">

@@ -10,28 +10,56 @@ export default function SPPortfolio() {
   return (
     <div className="bg-white portfolioSection">
       <div className="container flex flex-col text-start items-center py-24 gap-6">
-        <div className="text-4xl lg:text-6xl font-bold text-spNeutral self-start pl-8 pt-10 lg:pt-0">Solid Designs, Solid Work</div>
+        <div className="text-4xl lg:text-6xl font-bold text-spNeutral self-start pl-8 pt-10 lg:pt-0">
+          Solid Designs, Solid Work
+        </div>
         <p className="w-full lg:w-[70%] text-xl self-start pl-8">
-          Explore our gallery of completed decking and fencing projects. Each image is a testament to our commitment to quality and customer satisfaction. From modern designs to classic styles, our portfolio showcases our versatility and craftsmanship in every detail.
+          Check out the types of decking and fencing projects we can offer. Our gallery illustrates the quality and
+          customer satisfaction we aim for. It includes a variety of styles, demonstrating what we're capable of
+          handling.
         </p>
         <div className="w-full flex flex-wrap gap-10 justify-center pb-10 lg:pt-0 justify-center">
           <div className="w-[90%] md:w-[45%] xl:w-[30%] drop-shadow-xl">
-            <Image className="w-full rounded-md drop-shadow-xl" src={PortOne} alt="Desmond and Sons Decking Project"></Image>
+            <Image
+              className="w-full rounded-md drop-shadow-xl"
+              src={PortOne}
+              alt="Desmond and Sons Decking Project"
+            ></Image>
           </div>
           <div className="w-[90%] md:w-[45%] xl:w-[30%] drop-shadow-xl">
-            <Image className="w-full rounded-md drop-shadow-xl" src={PortTwo} alt="Desmond and Sons Fencing Project"></Image>
+            <Image
+              className="w-full rounded-md drop-shadow-xl"
+              src={PortTwo}
+              alt="Desmond and Sons Fencing Project"
+            ></Image>
           </div>
           <div className="w-[90%] md:w-[45%] xl:w-[30%] drop-shadow-xl">
-            <Image className="w-full rounded-md drop-shadow-xl" src={PortThree} alt="Desmond and Sons Outdoor Design"></Image>
+            <Image
+              className="w-full rounded-md drop-shadow-xl"
+              src={PortThree}
+              alt="Desmond and Sons Outdoor Design"
+            ></Image>
           </div>
           <div className="w-[90%] md:w-[45%] xl:w-[30%] drop-shadow-xl">
-            <Image className="w-full rounded-md drop-shadow-xl" src={PortFour} alt="Desmond and Sons Custom Deck"></Image>
+            <Image
+              className="w-full rounded-md drop-shadow-xl"
+              src={PortFour}
+              alt="Desmond and Sons Custom Deck"
+            ></Image>
           </div>
           <div className="w-[90%] md:w-[45%] xl:w-[30%] drop-shadow-xl">
-            <Image className="w-full rounded-md drop-shadow-xl" src={PortFive} alt="Desmond and Sons Elegant Fencing"></Image>
+            <Image
+              className="w-full rounded-md drop-shadow-xl"
+              src={PortFive}
+              alt="Desmond and Sons Elegant Fencing"
+            ></Image>
           </div>
           <div className="w-[90%] md:w-[45%] xl:w-[30%] drop-shadow-xl">
-            <Image className="w-full rounded-md drop-shadow-xl" src={PortSix} alt="Desmond and Sons Creative Outdoor Space"></Image>
+            <Image
+              className="w-full rounded-md drop-shadow-xl"
+              src={PortSix}
+              alt="Desmond and Sons Creative Outdoor Space"
+            ></Image>
           </div>
         </div>
       </div>
