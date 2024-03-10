@@ -3,7 +3,7 @@ export default function SPServices() {
     <div className="bg-white py-12 servicesSection">
       <div className="container">
         <div className=" bg-spAccent flex flex-col items-center text-center gap-8 drop-shadow-2xl rounded-md lg:py-12 px-4">
-          <h2 className="text-4xl lg:text-6xl font-bold text-spNeutral capitalize pt-10 lg:pt-0">
+          <h2 className="text-4xl lg:text-6xl font-bold text-primary capitalize pt-10 lg:pt-0">
             Exceptional Decking & Fencing Services
           </h2>
           <div className="text-xl w-full lg:w-[70%]">
