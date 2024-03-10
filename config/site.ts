@@ -23,10 +23,10 @@ interface SiteConfig {
 
 // TODO: Business/Site configuration
 export const siteConfig: SiteConfig = {
-  name: 'Desmond And Sons LLC',
+  name: 'Relax Roofing',
   slogan: "",
   description: 'Business description here',
-  url: 'desandsons.com',
+  url: 'relaxroofing.com',
   APIurl: 'thisistheurl.com',
   cwsName: 'Cascade Web Solutions',
 
@@ -36,15 +36,15 @@ export const siteConfig: SiteConfig = {
       href: '/',
     },
   ],
-  services: ['Decking Contractor', 'Fencing Contractor', 'Outdoor Living Contractor'],
+  services: ['Residential Roofing', 'Commercial Roofing', 'Roof Repair & Maintenance'],
   links: {
     tikTok: 'https://www.tiktok.com/@desmond.and.sons',
     linkedin: 'https://www.youtube.com/channel/UCFVoGePhX4EYFJHA7DkgvlQ',
     facebook: 'https://m.facebook.com/Desmondandsonsconstruction',
     instagram: 'https://www.instagram.com/desmond_and_sons/',
   },
-  address: '6212 candlestick Dr. Pasco 99301',
-  phone: '(509) 405-6621',
-  email: 'des@desandsons.com',
+  address: '',
+  phone: 'NEEDED',
+  email: 'johnrobert70471@gmail.com',
   dateSiteLaunched: 'March 3rd 2024',
 };
