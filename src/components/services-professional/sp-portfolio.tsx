@@ -10,13 +10,12 @@ export default function SPPortfolio() {
   return (
     <div className="bg-white portfolioSection">
       <div className="container flex flex-col text-start items-center py-24 gap-6">
-        <div className="text-4xl lg:text-6xl font-bold text-spNeutral self-start pl-8 pt-10 lg:pt-0">
-          Solid Designs, Solid Work
+        <div className="text-4xl lg:text-6xl font-bold text-rrNeutral self-start pl-8 pt-10 lg:pt-0">
+          Quality Roofing, Lasting Protection
         </div>
         <p className="w-full lg:w-[70%] text-xl self-start pl-8">
-          Check out the types of decking and fencing projects we can offer. Our gallery illustrates the quality and
-          customer satisfaction we aim for. It includes a variety of styles, demonstrating what we're capable of
-          handling.
+          Explore our portfolio to see the range of roofing projects we've expertly completed. Our gallery showcases our
+          commitment to quality and customer satisfaction, featuring diverse and robust roofing designs.
         </p>
         <div className="w-full flex flex-wrap gap-10 justify-center pb-10 lg:pt-0 justify-center">
           <div className="w-[90%] md:w-[45%] xl:w-[30%] drop-shadow-xl">

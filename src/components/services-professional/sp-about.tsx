@@ -8,39 +8,47 @@ export default function SPAbout() {
   return (
     <div className="bg-white py-12 lg:py-24 aboutSection">
       <div className="container flex flex-col lg:flex-row items-center justify-between px-12 gap-28">
-        <Image className="hidden xl:flex object-center object-cover pointer-events-none" src={AboutImage} alt="Desmond and Sons Construction" />
+        <Image
+          className="hidden xl:flex object-center object-cover pointer-events-none"
+          src={AboutImage}
+          alt="Desmond and Sons Construction"
+        />
         <div className="w-full xl:w-1/2 flex  gap-6 flex-col items-start">
-          <h2 className="text-4xl lg:text-5xl font-bold text-spNeutral capitalize">
-            Desmond and Sons: Excellence in Decking and Fencing
+          <h2 className="text-4xl lg:text-5xl font-bold text-relaxRoofingNeutral capitalize">
+            Relax Roofing: Expertise in Residential Roofing
           </h2>
           <p className="text-lg">
-            At Desmond and Sons Construction, we specialize in providing top-notch decking and fencing contractor services. Our commitment to customer satisfaction has made us the most trusted name in town for these services.
+            At Relax Roofing, we are dedicated to delivering exceptional residential roofing services. Our commitment to
+            quality and customer satisfaction makes us a leading choice for roofing solutions.
           </p>
           <Accordion type="single" collapsible className="w-full pl-6 lg:pl-0" defaultValue="item-1">
             <AccordionItem value="item-1">
-              <AccordionTrigger className="data-[state=open]:text-spPrimary text-2xl text-start">
-                Decking Contractor Services
+              <AccordionTrigger className="data-[state=open]:text-relaxRoofingPrimary text-2xl text-start">
+                Residential Roofing Services
               </AccordionTrigger>
-              <AccordionContent className="[&[data-state=open]>svg]:text-spPrimary text-md pr-12">
-                Our decking services are designed to meet your unique needs, ensuring durability and beauty for your outdoor space. With precision and care, we bring your vision to life.
+              <AccordionContent className="[&[data-state=open]>svg]:text-relaxRoofingPrimary text-md pr-12">
+                Our roofing services cater to all residential needs, from installation to repairs. We use high-quality
+                materials and provide craftsmanship that guarantees durability and elegance for your home.
               </AccordionContent>
             </AccordionItem>
             <div className="w-[90%] h-[2px] bg-gray-500"></div>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="data-[state=open]:text-spPrimary text-2xl text-start">
-                Fencing Contractor Services
+              <AccordionTrigger className="data-[state=open]:text-relaxRoofingPrimary text-2xl text-start">
+                Roof Maintenance and Repairs
               </AccordionTrigger>
-              <AccordionContent className="[&[data-state=open]>svg]:text-spPrimary text-md pr-12">
-                Our expert team provides secure, aesthetically pleasing fencing solutions. Whether for privacy, security, or style, we deliver results that exceed expectations.
+              <AccordionContent className="[&[data-state=open]>svg]:text-relaxRoofingPrimary text-md pr-12">
+                We offer comprehensive maintenance and repair services to ensure your roof remains in top condition,
+                protecting your home and enhancing its value.
               </AccordionContent>
             </AccordionItem>
             <div className="w-[90%] h-[2px] bg-gray-500"></div>
             <AccordionItem value="item-3">
-              <AccordionTrigger className="data-[state=open]:text-spPrimary text-2xl text-start">
-                Customer Satisfaction & Reliability
+              <AccordionTrigger className="data-[state=open]:text-relaxRoofingPrimary text-2xl text-start">
+                Customer Satisfaction & Professionalism
               </AccordionTrigger>
-              <AccordionContent className="[&[data-state=open]>svg]:text-spPrimary text-md pr-12">
-                We pride ourselves on punctuality, exceptional craftsmanship, and a passion for what we do. Our dedication to stand behind every job ensures unparalleled service and satisfaction.
+              <AccordionContent className="[&[data-state=open]>svg]:text-relaxRoofingPrimary text-md pr-12">
+                Our team values professionalism, timeliness, and precise workmanship. We are committed to exceeding your
+                expectations and stand behind every roofing project we undertake.
               </AccordionContent>
             </AccordionItem>
             <div className="w-[90%] h-[2px] bg-gray-500"></div>
@@ -56,7 +64,7 @@ export default function SPAbout() {
           >
             <Button
               className={`${buttonVariants({
-                variant: 'spSecondary',
+                variant: 'spDefault',
                 size: 'lg',
               })} text-lg uppercase rounded-sm front-thin`}
             >

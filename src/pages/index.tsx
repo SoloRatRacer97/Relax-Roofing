@@ -12,7 +12,10 @@ import SPAllOutFooterSection from '../components/services-professional/sp-info-h
 export default function ServicesProfessional() {
   return (
     <div className="bg-gray-50">
-      <SPLayoutRegular title="Decking Contractor in Tri Cities | Desmond and Sons Construction" description="Desmond and Sons Construction, the leading decking contractor in Tri Cities, specializing in custom decks and expert fencing contractor services. Renowned for quality craftsmanship, our team ensures customer satisfaction with durable, attractive outdoor solutions. Trust us for your decking and fencing needs.">
+      <SPLayoutRegular
+        title="Roofing Contractor in Louisiana and Mississippi | Relax Roofing"
+        description="Relax Roofing, the go-to roofing contractor in Mississippi, is known for its exceptional craftsmanship and durable, aesthetically pleasing residential roofing services. We guarantee customer satisfaction through our reliable, high-quality roofing solutions."
+      >
         <SPHero></SPHero>
         <SPAbout></SPAbout>
         {/* <SSServiceesWeOffer></SSServiceesWeOffer>
@@ -20,7 +23,7 @@ export default function ServicesProfessional() {
         <SPServices></SPServices>
         <SPFixedImageCallToAction></SPFixedImageCallToAction>
         <SPPortfolio></SPPortfolio>
-        <SPReviewSection></SPReviewSection>
+        {/* <SPReviewSection></SPReviewSection> */}
         <SPHomeContactForm></SPHomeContactForm>
         <SPAllOutFooterSection></SPAllOutFooterSection>
       </SPLayoutRegular>

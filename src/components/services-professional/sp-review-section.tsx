@@ -77,22 +77,20 @@ export default function SPReviewSection() {
     <div className="bg-gray-200 py-12 lg:py-24 reviewsSection">
       <div className="container flex flex-col gap-40 px-20 lg:flex-row items-start justify-center">
         <div className="w-full xl:w-1/2 flex flex-col gap-4">
-          <div className="text-5xl font-bold capitalize text-spNeutral">Hear from our happy Customers</div>
+          <div className="text-5xl font-bold capitalize text-rrNeutral">Hear from Our Satisfied Clients</div>
           <div className="text-xl font-thin">
-            Discover why Desmond and Sons Construction is the preferred choice for decking and fencing services. Our
-            satisfied customers speak to the quality, reliability, and exceptional customer service we provide. Read
-            their testimonials to understand the care and professionalism we bring to every project.
+            Find out why Relax Roofing is the top choice for roofing services in Mississippi. Our happy clients attest
+            to the outstanding quality, reliability, and excellent customer service we deliver. Explore their
+            testimonials to see the dedication and professionalism we bring to every roofing project.
           </div>
           <div className="">
             <Carousel setApi={setApi} className="w-full">
               <CarouselContent>
-              {reviews.map((review, index) => (
+                {reviews.map((review, index) => (
                   <CarouselItem key={index}>
                     <Card>
                       <CardContent className="flex flex-col border rounded-md border-gray-200 gap-6 items-center justify-center p-6">
-                        <div className="bg-spSecondary/20 p-4">
-                          {review.testimonial}
-                        </div>
+                        <div className="bg-spSecondary/20 p-4">{review.testimonial}</div>
                         <div className="flex ml-auto flex-col">
                           <div className="text-xl font-bold">{review.name}</div>
                           <div className="">{review.title}</div>

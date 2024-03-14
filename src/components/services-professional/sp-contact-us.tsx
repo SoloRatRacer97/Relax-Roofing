@@ -109,18 +109,19 @@ export default function SPHomeContactForm() {
     <div className="bg-white contactSection py-12 lg:py-20">
       <div className="container flex flex-col xl:flex-row w-full md:w-[95%] xl:w-full gap-10 lg:gap-20 items-center">
         <div className="w-full xl:w-1/2 xl:pr-10 flex gap-6 flex-col items-start">
-          <h2 className="text-5xl lg:text-6xl font-bold capitalize text-spNeutral">Get in Touch With Us</h2>
-          <h3 className="text-xl font-medium">We're Ready To Start!</h3>
+          <h2 className="text-5xl lg:text-6xl font-bold capitalize text-rrNeutral">Get in Touch With Us</h2>
+          <h3 className="text-xl font-medium capitalize">Ready for your new roof?</h3>
           <p className="text-lg">
-            Whether you have a question about our services, need assistance with a project, or need a professional
-            opinion, we're here for you. Reach out to us using the form below, and our team will get back to you as soon
-            as possible.
+            If you have any questions about our roofing services, need assistance with a roofing project, or require
+            professional guidance, we're here to help. Please use the form below to reach out, and our team will respond
+            promptly.
           </p>
           <p className="text-lg hidden lg:flex">
-            We pride ourselves on our quick response times and personalized service. Let us know how we can assist you
-            with your decking and fencing needs. Your satisfaction is our top priority.
+            We're known for our quick response times and tailored roofing solutions. Tell us how we can help you with
+            your residential roofing requirements. Your satisfaction is our ultimate goal.
           </p>
         </div>
+
         {/* TOOD: Make sure the contact form is working - mobile prevents it from being clicked */}
         <div className="w-[95%] xl:w-[45%] py-6 bg-gray-100 rounded-md text-start relative z-10 flex flex-col items-center">
           <div className="w-[90%]">

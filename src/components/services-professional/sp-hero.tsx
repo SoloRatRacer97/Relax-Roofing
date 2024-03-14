@@ -10,7 +10,6 @@ import { siteConfig } from '@/config/site';
 import HeroImage from '../../../public/sp/sp-hero.png';
 import { Button, buttonVariants } from '../ui/button';
 import Image from 'next/image';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -32,14 +31,13 @@ export default function SPHero() {
         <div className="flex mt-10 lg:mt-28 flex-col text-white items-start justify-center gap-2">
           <div>
             <h1 className="text-5xl text-cws-dark mt-8 md:mt-0 font-medium text-cws-dark text-center lg:text-start  w-full lg:w-[80%] capitalize leading-tight md:text-5xl lg:text-[85px] tracking-wider text-white drop-shadow-2xl">
-              Best Decking Contractor in Tri Cities
+              Roofing Contractor In Louisiana and Mississippi
             </h1>
           </div>
         </div>
         <div className="flex font-medium flex-col text-center">
           <h2 className="flex text-md w-full lg:w-[50%] text-center lg:text-start font-medium items-center text-xl md:text-xl tracking-wider text-white">
-            Desmond and Sons Construction: Premier Decking and Fencing Contractor in Tri Cities, Committed to Quality
-            and Customer Satisfaction.
+            Relax Roofing: #1 Customer Experience, Quality Workmanship, Best Materials. Satisfaction Guaranteed.
           </h2>
         </div>
         <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 w-full">
