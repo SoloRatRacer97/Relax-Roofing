@@ -39,7 +39,7 @@ export default function SPAllOutFooterSection() {
               <div key={index}>{item}</div>
             ))}
           </div>
-          <div className="flex flex-col lg:items-center w-full lg:w-[18%] h-20 ">
+          {/* <div className="flex flex-col lg:items-center w-full lg:w-[18%] h-20 ">
             <div className="text-3xl font-medium underline">Social Media</div>
             <div className="flex gap-4 mt-2 items-center">
               <div className="h-12 w-12 -mt-2">
@@ -63,7 +63,7 @@ export default function SPAllOutFooterSection() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="hidden md:flex h-[1px] bg-gray-200 px-2 w-full container"></div>
         <div className="text-black w-full xl:px-56 text-white py-2">
