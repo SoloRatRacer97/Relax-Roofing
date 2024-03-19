@@ -13,8 +13,8 @@ export default function ServicesProfessional() {
   return (
     <div className="bg-gray-50">
       <SPLayoutRegular
-        title="Roofing Contractor in Louisiana and Mississippi | Relax Roofing"
-        description="Relax Roofing, the go-to roofing contractor in Mississippi, is known for its exceptional craftsmanship and durable, aesthetically pleasing residential roofing services. We guarantee customer satisfaction through our reliable, high-quality roofing solutions."
+        title="Roofing Contractor in Mandeville | Relax Roofing"
+        description="Relax Roofing, the go-to roofing contractor in Mandeville, is known for its exceptional craftsmanship and durable, aesthetically pleasing residential roofing services. We guarantee customer satisfaction through our reliable, high-quality roofing solutions."
       >
         <SPHero></SPHero>
         <SPAbout></SPAbout>

@@ -31,7 +31,7 @@ export default function SPHero() {
         <div className="flex mt-10 lg:mt-28 flex-col text-white items-start justify-center gap-2">
           <div>
             <h1 className="text-5xl text-cws-dark mt-8 md:mt-0 font-medium text-cws-dark text-center lg:text-start  w-full lg:w-[80%] capitalize leading-tight md:text-5xl lg:text-[85px] tracking-wider text-white drop-shadow-2xl">
-              Roofing Contractor In Louisiana and Mississippi
+              Roofing Contractor In Mandeville
             </h1>
           </div>
         </div>

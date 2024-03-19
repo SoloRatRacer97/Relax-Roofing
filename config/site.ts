@@ -44,7 +44,7 @@ export const siteConfig: SiteConfig = {
     instagram: 'https://www.instagram.com/desmond_and_sons/',
   },
   address: '',
-  phone: 'NEEDED',
-  email: 'johnrobert70471@gmail.com',
+  phone: '(985) 202-6204',
+  email: 'johnrobert@relaxroofing',
   dateSiteLaunched: 'March 3rd 2024',
 };

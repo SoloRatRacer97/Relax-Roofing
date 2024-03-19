@@ -55,7 +55,7 @@ export default function SPAllOutFooterSection() {
               <div className="h-16 w-16 -mt-2">
                 <Link href={siteConfig.links.linkedin} target='blank'>
                   <Image className='' src={youtube} alt="Linkedin Icon"></Image>
-                </Link>
+                </Link> 
               </div>
               <div className="h-16 w-16 mt-2">
                 <Link href={siteConfig.links.instagram} target='blank'>

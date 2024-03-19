@@ -30,11 +30,11 @@ export default function SPLayoutRegular({
   const jsonLd = {
     '@context': 'http://schema.org',
     '@type': 'WebSite',
-    name: 'Sir Suds Laundry Co.',
-    url: 'https://www.sirsuds.com/',
+    name: 'Relax Roofing',
+    url: 'https:/www.relaxroofing.com/',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://www.sirsuds.com/search?q={search_term_string}',
+      target: 'https:/www.relaxroofing.com/search?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };
@@ -42,17 +42,17 @@ export default function SPLayoutRegular({
   const organizationSchema = {
     '@context': 'http://schema.org',
     '@type': 'Organization',
-    name: 'Sir Suds Laundry Co.',
-    url: 'https://www.sirsuds.com/',
-    description: "Tri-Cities' Premier Laundromat Experience",
+    name: 'Relax Roofing',
+    url: 'https:/www.relaxroofing.com/',
+    description: "",
     logo: '/public/logo/main-logo.svg',
-    telephone: '+1-940-5075',
+    telephone: '+1-985-202-6204',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '1411 Williams Blvd',
-      addressLocality: 'Richland',
-      addressRegion: 'Washington',
-      postalCode: '99354',
+      streetAddress: '',
+      addressLocality: '',
+      addressRegion: '',
+      postalCode: '',
       addressCountry: 'US',
     },
   };
