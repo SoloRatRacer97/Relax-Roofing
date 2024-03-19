@@ -22,7 +22,7 @@ export default function SPFixedImageCallToAction() {
       >
         <div className="z-20 text-white tracking-wide lg:text-7xl text-5xl font-bold">Contact Us today</div>
         <div className="z-20 text-2xl text-white capitalize tracking-widest font-light">
-          and find out why we are the best roofing contractor in the Louisiana and Mississippi
+          and find out why we are the best roofing contractor in Mandeville
         </div>
         <ScrollLink
           activeClass="active"
